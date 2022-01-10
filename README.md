@@ -8,4 +8,6 @@
 
 - [HelloForkJoinPool（一）—— 介绍和使用](./content/0/content.md)
 
+- [HelloForkJoinPool（二）—— 简单流程原理概述](./content/1/content.md)
+
     
