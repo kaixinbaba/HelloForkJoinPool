@@ -12,5 +12,7 @@
 
 - [HelloForkJoinPool（三）—— 深入细节](./content/2/content.md)
 
+- [HelloForkJoinPool（四）—— 分分合合](./content/3/content.md)
+
     
 
