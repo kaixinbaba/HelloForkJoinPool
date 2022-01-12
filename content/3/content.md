@@ -53,7 +53,7 @@ Long sumJoinResult = pool.invoke(task); // 500500
 一般来说，在下面的两类方法中去进行拆分和合并就是处在**工作线程**中了：
 
 - `ForkJoinTask` 的 `exec` 方法
-- `RecursiveAction` 和 ``RecursiveTask` 的 `compute` 方法
+- `RecursiveAction` 和 `RecursiveTask` 的 `compute` 方法
 
 我们还是以之前的 `SumTask` 的 `compute` 方法举例（省略了其他不相关的代码，下面也只演示了拆分成两个任务 `firstTask` 和 `secondTask`，理论上可以随意拆分成 N 个任务）
 
